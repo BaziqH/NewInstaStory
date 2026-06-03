@@ -6,30 +6,55 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		00DFE6382FD00E5D0024D939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6102FD00E5D0024D939 /* AppDelegate.swift */; };
+		00DFE6392FD00E5D0024D939 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6112FD00E5D0024D939 /* SceneDelegate.swift */; };
+		00DFE63A2FD00E5D0024D939 /* ExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6132FD00E5D0024D939 /* ExploreCollectionViewCell.swift */; };
+		00DFE63B2FD00E5D0024D939 /* ExploreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6142FD00E5D0024D939 /* ExploreTableViewCell.swift */; };
+		00DFE63C2FD00E5D0024D939 /* PostCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6152FD00E5D0024D939 /* PostCellTableViewCell.swift */; };
+		00DFE63D2FD00E5D0024D939 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6172FD00E5D0024D939 /* ExploreViewController.swift */; };
+		00DFE63E2FD00E5D0024D939 /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6192FD00E5D0024D939 /* HomeFeedViewController.swift */; };
+		00DFE63F2FD00E5D0024D939 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE61B2FD00E5D0024D939 /* LoginViewController.swift */; };
+		00DFE6402FD00E5D0024D939 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE61D2FD00E5D0024D939 /* ProfileViewController.swift */; };
+		00DFE6412FD00E5D0024D939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE61F2FD00E5D0024D939 /* ViewController.swift */; };
+		00DFE6422FD00E5D0024D939 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6222FD00E5D0024D939 /* MainTabBar.swift */; };
+		00DFE6432FD00E5D0024D939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE6252FD00E5D0024D939 /* Assets.xcassets */; };
+		00DFE6442FD00E5D0024D939 /* ProfileInsta~.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE6282FD00E5D0024D939 /* ProfileInsta~.storyboard */; };
+		00DFE6452FD00E5D0024D939 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE62A2FD00E5D0024D939 /* Explore.storyboard */; };
+		00DFE6462FD00E5D0024D939 /* ExploreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE62B2FD00E5D0024D939 /* ExploreCollectionViewCell.xib */; };
+		00DFE6472FD00E5D0024D939 /* ExploreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE62C2FD00E5D0024D939 /* ExploreTableViewCell.xib */; };
+		00DFE6482FD00E5D0024D939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE62E2FD00E5D0024D939 /* LaunchScreen.storyboard */; };
+		00DFE6492FD00E5D0024D939 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE62F2FD00E5D0024D939 /* Login.storyboard */; };
+		00DFE64A2FD00E5D0024D939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE6312FD00E5D0024D939 /* Main.storyboard */; };
+		00DFE64B2FD00E5D0024D939 /* PostCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE6322FD00E5D0024D939 /* PostCellTableViewCell.xib */; };
+		00DFE64C2FD00E5D0024D939 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DFE6332FD00E5D0024D939 /* Profile.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		009FC39F2F33567A00F05D2E /* NewInstaStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewInstaStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DFE6102FD00E5D0024D939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00DFE6112FD00E5D0024D939 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00DFE6132FD00E5D0024D939 /* ExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewCell.swift; sourceTree = "<group>"; };
+		00DFE6142FD00E5D0024D939 /* ExploreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTableViewCell.swift; sourceTree = "<group>"; };
+		00DFE6152FD00E5D0024D939 /* PostCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellTableViewCell.swift; sourceTree = "<group>"; };
+		00DFE6172FD00E5D0024D939 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		00DFE6192FD00E5D0024D939 /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		00DFE61B2FD00E5D0024D939 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00DFE61D2FD00E5D0024D939 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		00DFE61F2FD00E5D0024D939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00DFE6222FD00E5D0024D939 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		00DFE6252FD00E5D0024D939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00DFE6272FD00E5D0024D939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ProfileInsta~.storyboard"; sourceTree = "<group>"; };
+		00DFE62A2FD00E5D0024D939 /* Explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
+		00DFE62B2FD00E5D0024D939 /* ExploreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreCollectionViewCell.xib; sourceTree = "<group>"; };
+		00DFE62C2FD00E5D0024D939 /* ExploreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreTableViewCell.xib; sourceTree = "<group>"; };
+		00DFE62D2FD00E5D0024D939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00DFE62F2FD00E5D0024D939 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		00DFE6302FD00E5D0024D939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00DFE6322FD00E5D0024D939 /* PostCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCellTableViewCell.xib; sourceTree = "<group>"; };
+		00DFE6332FD00E5D0024D939 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		00DFE6362FD00E5D0024D939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		009FC3B12F33567D00F05D2E /* Exceptions for "NewInstaStory" folder in "NewInstaStory" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 009FC39E2F33567A00F05D2E /* NewInstaStory */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		009FC3A12F33567A00F05D2E /* NewInstaStory */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				009FC3B12F33567D00F05D2E /* Exceptions for "NewInstaStory" folder in "NewInstaStory" target */,
-			);
-			path = NewInstaStory;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		009FC39C2F33567A00F05D2E /* Frameworks */ = {
@@ -45,7 +70,7 @@
 		009FC3962F33567A00F05D2E = {
 			isa = PBXGroup;
 			children = (
-				009FC3A12F33567A00F05D2E /* NewInstaStory */,
+				00DFE6372FD00E5D0024D939 /* NewInstaStory */,
 				009FC3A02F33567A00F05D2E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +81,147 @@
 				009FC39F2F33567A00F05D2E /* NewInstaStory.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		00DFE6122FD00E5D0024D939 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6102FD00E5D0024D939 /* AppDelegate.swift */,
+				00DFE6112FD00E5D0024D939 /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		00DFE6162FD00E5D0024D939 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6132FD00E5D0024D939 /* ExploreCollectionViewCell.swift */,
+				00DFE6142FD00E5D0024D939 /* ExploreTableViewCell.swift */,
+				00DFE6152FD00E5D0024D939 /* PostCellTableViewCell.swift */,
+				00DFE6322FD00E5D0024D939 /* PostCellTableViewCell.xib */,
+				00DFE62B2FD00E5D0024D939 /* ExploreCollectionViewCell.xib */,
+				00DFE62C2FD00E5D0024D939 /* ExploreTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00DFE6182FD00E5D0024D939 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6162FD00E5D0024D939 /* Cells */,
+				00DFE6172FD00E5D0024D939 /* ExploreViewController.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		00DFE61A2FD00E5D0024D939 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6192FD00E5D0024D939 /* HomeFeedViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00DFE61C2FD00E5D0024D939 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE61B2FD00E5D0024D939 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		00DFE61E2FD00E5D0024D939 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE61D2FD00E5D0024D939 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		00DFE6202FD00E5D0024D939 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE61F2FD00E5D0024D939 /* ViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		00DFE6212FD00E5D0024D939 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6232FD00E5D0024D939 /* MainTabBar */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		00DFE6232FD00E5D0024D939 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6222FD00E5D0024D939 /* MainTabBar.swift */,
+				00DFE6182FD00E5D0024D939 /* Explore */,
+				00DFE61A2FD00E5D0024D939 /* Home */,
+				00DFE61C2FD00E5D0024D939 /* Login */,
+				00DFE61E2FD00E5D0024D939 /* Profile */,
+				00DFE6202FD00E5D0024D939 /* Search */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		00DFE6262FD00E5D0024D939 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6252FD00E5D0024D939 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		00DFE6292FD00E5D0024D939 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6282FD00E5D0024D939 /* ProfileInsta~.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		00DFE6342FD00E5D0024D939 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6292FD00E5D0024D939 /* Base */,
+				00DFE62A2FD00E5D0024D939 /* Explore.storyboard */,
+				00DFE62E2FD00E5D0024D939 /* LaunchScreen.storyboard */,
+				00DFE62F2FD00E5D0024D939 /* Login.storyboard */,
+				00DFE6312FD00E5D0024D939 /* Main.storyboard */,
+				00DFE6332FD00E5D0024D939 /* Profile.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		00DFE6352FD00E5D0024D939 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6262FD00E5D0024D939 /* Assets */,
+				00DFE6342FD00E5D0024D939 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00DFE6372FD00E5D0024D939 /* NewInstaStory */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6122FD00E5D0024D939 /* App Delegates */,
+				00DFE64F2FD00EE90024D939 /* Model */,
+				00DFE6352FD00E5D0024D939 /* Views */,
+				00DFE6212FD00E5D0024D939 /* Controllers */,
+				00DFE6362FD00E5D0024D939 /* Info.plist */,
+			);
+			path = NewInstaStory;
+			sourceTree = "<group>";
+		};
+		00DFE64F2FD00EE90024D939 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +238,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				009FC3A12F33567A00F05D2E /* NewInstaStory */,
 			);
 			name = NewInstaStory;
 			packageProductDependencies = (
@@ -122,6 +285,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DFE6432FD00E5D0024D939 /* Assets.xcassets in Resources */,
+				00DFE6442FD00E5D0024D939 /* ProfileInsta~.storyboard in Resources */,
+				00DFE6452FD00E5D0024D939 /* Explore.storyboard in Resources */,
+				00DFE6462FD00E5D0024D939 /* ExploreCollectionViewCell.xib in Resources */,
+				00DFE6472FD00E5D0024D939 /* ExploreTableViewCell.xib in Resources */,
+				00DFE6482FD00E5D0024D939 /* LaunchScreen.storyboard in Resources */,
+				00DFE6492FD00E5D0024D939 /* Login.storyboard in Resources */,
+				00DFE64A2FD00E5D0024D939 /* Main.storyboard in Resources */,
+				00DFE64B2FD00E5D0024D939 /* PostCellTableViewCell.xib in Resources */,
+				00DFE64C2FD00E5D0024D939 /* Profile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +305,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DFE6382FD00E5D0024D939 /* AppDelegate.swift in Sources */,
+				00DFE6392FD00E5D0024D939 /* SceneDelegate.swift in Sources */,
+				00DFE63A2FD00E5D0024D939 /* ExploreCollectionViewCell.swift in Sources */,
+				00DFE63B2FD00E5D0024D939 /* ExploreTableViewCell.swift in Sources */,
+				00DFE63C2FD00E5D0024D939 /* PostCellTableViewCell.swift in Sources */,
+				00DFE63D2FD00E5D0024D939 /* ExploreViewController.swift in Sources */,
+				00DFE63E2FD00E5D0024D939 /* HomeFeedViewController.swift in Sources */,
+				00DFE63F2FD00E5D0024D939 /* LoginViewController.swift in Sources */,
+				00DFE6402FD00E5D0024D939 /* ProfileViewController.swift in Sources */,
+				00DFE6412FD00E5D0024D939 /* ViewController.swift in Sources */,
+				00DFE6422FD00E5D0024D939 /* MainTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00DFE6282FD00E5D0024D939 /* ProfileInsta~.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DFE6272FD00E5D0024D939 /* Base */,
+			);
+			name = "ProfileInsta~.storyboard";
+			sourceTree = "<group>";
+		};
+		00DFE62E2FD00E5D0024D939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DFE62D2FD00E5D0024D939 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00DFE6312FD00E5D0024D939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DFE6302FD00E5D0024D939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		009FC3B32F33567D00F05D2E /* Debug */ = {
@@ -159,6 +370,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewInstaStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -186,6 +401,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewInstaStory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
